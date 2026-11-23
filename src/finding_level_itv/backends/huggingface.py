@@ -1,4 +1,4 @@
-"""Transformers backend, including deterministic beam-search decoding."""
+"""Transformers backend"""
 
 from __future__ import annotations
 
