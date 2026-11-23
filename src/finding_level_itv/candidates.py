@@ -1,4 +1,4 @@
-"""Construction of a normalized finding-level candidate set."""
+"""Construction of a normalised finding-level candidate set."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from .text import normalise_sentence
 
 @dataclass
 class Candidate:
-    """One unique normalized finding and its generation occurrences."""
+    """One unique normalised finding and its generation occurrences."""
 
     text: str
     normalized: str
@@ -28,7 +28,7 @@ def build_candidate_pool(generations: Sequence[Iterable[str]]) -> list[Candidate
 
     A candidate receives at most one occurrence from each generation. The first
     observed surface form is retained for contextual verification, while equality
-    and voting use :func:`normalise_sentence`.
+    and voting use the function `normalise_sentence`.
     """
     candidates: dict[str, Candidate] = {}
     for generation_index, findings in enumerate(generations, start=1):
