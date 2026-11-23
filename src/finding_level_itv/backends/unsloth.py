@@ -1,4 +1,4 @@
-"""Unsloth backend for quantized adapter inference."""
+"""Unsloth backend."""
 
 from __future__ import annotations
 
