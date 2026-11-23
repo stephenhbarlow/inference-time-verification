@@ -1,4 +1,4 @@
-"""Document-level orchestration shared by the inference command and examples."""
+"""Document-level inference organisation."""
 
 from __future__ import annotations
 
