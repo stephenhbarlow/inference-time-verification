@@ -1,4 +1,4 @@
-"""Finding-level pooled metrics and report-level fixed-class macro-F1."""
+"""Finding-level metrics and report-level fixed-class macro-F1."""
 
 from __future__ import annotations
 
