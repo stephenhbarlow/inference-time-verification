@@ -10,6 +10,10 @@ accepts or rejects each finding independently while reading the complete source
 document. This allows useful findings from partially correct generations to be
 retained without accepting every item in those generations.
 
+This can be used in conjunction with https://github.com/stephenhbarlow/incidental-findings.
+This provides code for the initial generator training and an earlier version of ITV.
+This implementation assumes a working generator model is already trained.
+
 ## Method overview
 
 1. Produce `n` stochastic generations for a document.
