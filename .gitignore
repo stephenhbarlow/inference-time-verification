@@ -12,6 +12,8 @@ wandb/
 # Common model and dataset artifacts.
 *.csv
 *.jsonl
+!examples/synthetic/reports.jsonl
+!examples/synthetic/expected_predictions.jsonl
 *.parquet
 *.arrow
 *.safetensors

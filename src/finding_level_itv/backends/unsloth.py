@@ -29,9 +29,9 @@ class UnslothBackend:
         load_in_4bit: bool = True,
     ) -> "UnslothBackend":
         try:
-            from transformers import AutoTokenizer
             from unsloth import FastLanguageModel
             from unsloth.chat_templates import get_chat_template
+            from transformers import AutoTokenizer
         except ImportError as error:  # pragma: no cover - optional GPU dependency
             raise ImportError(
                 "Install finding-level-itv[unsloth] to use this backend"

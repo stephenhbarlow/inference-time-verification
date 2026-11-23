@@ -1,0 +1,4 @@
+{"id": "synthetic-001", "text": "Synthetic document one. Background statement only.", "findings": []}
+{"id": "synthetic-002", "text": "Synthetic document two. Synthetic finding alpha.", "findings": ["Synthetic finding alpha."]}
+{"id": "synthetic-003", "text": "Synthetic document three. Synthetic finding beta. Synthetic finding gamma.", "findings": ["Synthetic finding beta.", "Synthetic finding gamma."]}
+{"id": "synthetic-004", "text": "Synthetic document four. Synthetic finding delta.", "findings": ["Synthetic finding delta."]}
