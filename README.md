@@ -38,7 +38,7 @@ weights.
 - `generation.py` shares prompts, parsing and decoding settings across backends.
 - `backends/` provides Unsloth and Transformers model adapters.
 - `training.py` validates and formats contextual verifier examples.
-- 
+  
 
 ## Installation
 
