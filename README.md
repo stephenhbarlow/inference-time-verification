@@ -38,15 +38,7 @@ weights.
 - `generation.py` shares prompts, parsing and decoding settings across backends.
 - `backends/` provides Unsloth and Transformers model adapters.
 - `training.py` validates and formats contextual verifier examples.
-
-GPU-specific model loading and QLoRA training commands are kept separate from the
-method modules so the core logic can be inspected and tested without loading a
-model framework.
-
-Use the Unsloth backend for the quantized generator/verifier workflow. Use the
-Transformers backend when deterministic beam decoding is required. Both implement
-the same `generate_text(messages, config)` interface, so candidate construction
-and evaluation do not depend on the selected framework.
+  
 
 ## Installation
 
