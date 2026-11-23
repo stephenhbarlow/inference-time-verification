@@ -100,9 +100,7 @@ macro-average of the positive- and negative-class F1 values.
 
 Clinical reports, annotations, report-derived predictions and trained model
 adapters are not distributed. The repository provides synthetic examples and
-accepts user-supplied data through a documented schema. Consequently, the method
-can be inspected and executed without implying that the paper's clinical results
-can be reproduced without access to the governed artifacts.
+accepts user-supplied data through a documented schema. This repository is considered a reference implementation of ITV that can be inspected and trialled without providing access to the private patient data required to generate the paper's results.
 
 See `docs/data_format.md`, `docs/backends.md`, and `docs/method.md` for the input
 contract and implementation details.
