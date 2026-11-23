@@ -1,0 +1,47 @@
+# Never stage governed or derived research artifacts.
+data/
+processed_data/
+predictions/
+results/
+outputs/
+checkpoints/
+trained_models/
+models/
+wandb/
+
+# Common model and dataset artifacts.
+*.csv
+*.jsonl
+*.parquet
+*.arrow
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Local environment and caches.
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Manuscript and handoff artifacts are out of scope for this code release.
+*.docx
+*.pptx
+*.zip
+*.tar.gz
+
+# Local provenance snapshots are audit inputs, not automatically publishable.
+# Public components must be deliberately ported into src/, tests/ or scripts/.
+original_research_code/
+eacl_research_code/
+release_preparation/
+

@@ -1,0 +1,20 @@
+{
+  "finding": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "document": {
+    "tn": 1,
+    "fp": 0,
+    "fn": 0,
+    "tp": 3,
+    "accuracy": 1.0,
+    "positive_f1": 1.0,
+    "negative_f1": 1.0,
+    "macro_f1": 1.0
+  }
+}

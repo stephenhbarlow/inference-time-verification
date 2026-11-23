@@ -1,0 +1,24 @@
+{
+  "mode": "generator",
+  "num_generations": 1,
+  "max_parse_attempts": 2,
+  "seed": 42,
+  "generator": {
+    "backend": "huggingface",
+    "model_name": "<path-or-hub-id-for-generator-adapter>",
+    "tokenizer_name": "meta-llama/Llama-3.1-8B-Instruct",
+    "chat_template": null,
+    "adapter": true,
+    "load_in_4bit": true,
+    "max_sequence_length": 4096
+  },
+  "generation": {
+    "strategy": "beam",
+    "temperature": 0.5,
+    "top_p": 0.5,
+    "num_beams": 4,
+    "max_new_tokens": null,
+    "max_time": 60.0,
+    "early_stopping": true
+  }
+}

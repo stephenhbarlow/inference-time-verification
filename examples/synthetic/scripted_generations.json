@@ -1,0 +1,14 @@
+{
+  "synthetic-001": [[], [], []],
+  "synthetic-002": [
+    ["1. Synthetic finding alpha."],
+    ["Synthetic finding alpha."],
+    ["SYNTHETIC FINDING ALPHA."]
+  ],
+  "synthetic-003": [
+    ["Synthetic finding beta.", "Unrelated candidate."],
+    ["Synthetic finding beta."],
+    ["Synthetic finding gamma."]
+  ],
+  "synthetic-004": [[], [], ["Synthetic finding delta."]]
+}

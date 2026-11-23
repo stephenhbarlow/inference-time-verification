@@ -1,0 +1,33 @@
+{
+  "mode": "itv",
+  "num_generations": 10,
+  "max_parse_attempts": 2,
+  "seed": 42,
+  "generator": {
+    "backend": "unsloth",
+    "model_name": "<path-or-hub-id-for-generator-adapter>",
+    "tokenizer_name": "meta-llama/Llama-3.1-8B-Instruct",
+    "chat_template": "llama-3",
+    "adapter": true,
+    "load_in_4bit": true,
+    "max_sequence_length": 4096
+  },
+  "verifier": {
+    "backend": "unsloth",
+    "model_name": "<path-or-hub-id-for-verifier-adapter>",
+    "tokenizer_name": "meta-llama/Llama-3.1-8B-Instruct",
+    "chat_template": "llama-3",
+    "adapter": true,
+    "load_in_4bit": true,
+    "max_sequence_length": 4096
+  },
+  "generation": {
+    "strategy": "sample",
+    "temperature": 0.5,
+    "top_p": 0.5,
+    "num_beams": 4,
+    "max_new_tokens": null,
+    "max_time": 120.0,
+    "early_stopping": true
+  }
+}
