@@ -1,4 +1,4 @@
-"""Small helpers for reproducible, non-overwriting experiment artifacts."""
+"""Small helper functions for data handling."""
 
 from __future__ import annotations
 
