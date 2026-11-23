@@ -5,7 +5,7 @@ generative information extraction systems that return a variable number of
 findings.
 
 A generator is sampled repeatedly to increase candidate coverage. Findings from
-all generations are normalized and de-duplicated, then a contextual verifier
+all generations are normalised and de-duplicated, then a contextual verifier
 accepts or rejects each finding independently while reading the complete source
 document. This allows useful findings from partially correct generations to be
 retained without accepting every item in those generations.
@@ -18,7 +18,7 @@ This implementation assumes a working generator model is already trained.
 
 1. Produce `n` stochastic generations for a document.
 2. Parse the finding strings from each generation.
-3. Normalize and combine them into one unique candidate set.
+3. Normalise and combine them into one unique candidate set.
 4. Present each candidate and the complete document to the verifier.
 5. Return the accepted candidates as the final variable-cardinality extraction.
 
@@ -34,7 +34,7 @@ weights.
 - `sampling.py` implements uniform, Gaussian and fixed-window negative sampling.
 - `prompts.py` constructs verifier prompts and parses verifier responses.
 - `metrics.py` calculates pooled finding metrics and document macro-F1.
-- `text.py` provides finding normalization and report sentence processing.
+- `text.py` provides finding normalisation and report sentence processing.
 - `generation.py` shares prompts, parsing and decoding settings across backends.
 - `backends/` provides Unsloth and Transformers model adapters.
 - `training.py` validates and formats contextual verifier examples.
