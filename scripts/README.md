@@ -1,6 +1,6 @@
 # Commands
 
-Training and inference commands are thin entry points over the package. Model and
+Training and inference commands are example entry points over the package. Model and
 data paths are supplied explicitly through configuration or command-line arguments.
 
 `run_inference.py` supports:
