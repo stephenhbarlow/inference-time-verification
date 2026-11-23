@@ -11,10 +11,6 @@ The scripted generator demonstrates:
 - a finding discovered only after additional sampling;
 - a document with more than one accepted finding.
 
-The scripted verifier is a dictionary of predefined Boolean decisions. It is a
-software fixture, not a model or clinical classifier. The perfect aggregate score
-is therefore not an experimental result.
-
 After installing the package, run:
 
 ```bash
