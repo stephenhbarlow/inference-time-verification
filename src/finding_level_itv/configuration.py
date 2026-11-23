@@ -1,4 +1,4 @@
-"""Strict configuration objects for public inference commands."""
+"""Inference configuration."""
 
 from __future__ import annotations
 
