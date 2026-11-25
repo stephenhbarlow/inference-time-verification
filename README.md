@@ -1,6 +1,6 @@
 # Finding-level inference-time verification
 
-This project implements finding-level inference-time verification (ITV) for
+This repo implements finding-level inference-time verification (ITV) for
 generative information extraction systems that return a variable number of
 findings.
 
