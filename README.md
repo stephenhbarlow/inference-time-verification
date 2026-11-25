@@ -6,8 +6,8 @@ findings (variable cardinality set).
 
 A generator is sampled repeatedly to increase candidate coverage. Findings from
 all generations are normalised and de-duplicated, then a contextual verifier
-accepts or rejects each finding independently while reading the complete source
-document. This allows useful findings from partially correct generations to be
+accepts or rejects each finding independently while using the complete source
+document as context. This allows useful findings from partially correct generations to be
 retained without accepting every item in those generations.
 
 This can be used in conjunction with https://github.com/stephenhbarlow/incidental-findings.
