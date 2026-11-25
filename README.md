@@ -1,8 +1,8 @@
 # Finding-level inference-time verification
 
 This repo implements finding-level inference-time verification (ITV) for
-generative information extraction systems that return a variable number of
-findings.
+generative information extraction systems that return a variable number of unique
+findings (variable cardinality set).
 
 A generator is sampled repeatedly to increase candidate coverage. Findings from
 all generations are normalised and de-duplicated, then a contextual verifier
